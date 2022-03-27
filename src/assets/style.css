@@ -1,0 +1,22 @@
+.top-bar{
+    height: 67px;
+    width: 100%;
+    background-color: #C3CFD9;
+    position: fixed; 
+    top: 0px;   
+    color: #E8833A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar h1{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+
+body{
+    padding-top: 67px;
+}
