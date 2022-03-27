@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #293845;
 }
 .content p{
     color: #293845;
@@ -35,4 +36,13 @@
     line-height: 28px;
     letter-spacing: 0.04em;
 
+}
+
+.loading-image{
+    position: absolute;
+    left: auto;
+    right: auto;
+    top:50%;
+    align-items: center;
+    width: 10%;
 }
