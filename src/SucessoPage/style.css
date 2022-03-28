@@ -1,0 +1,37 @@
+.title-sucess{
+    margin:20px 40px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #247A6B;
+}
+
+.section .title{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #293845;
+    margin-bottom: 5px;
+}       
+
+.section p{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #293845;
+    }
+
+.section{
+    margin-bottom: 20px;
+}

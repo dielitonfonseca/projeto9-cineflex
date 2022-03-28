@@ -37,7 +37,11 @@
     letter-spacing: 0.04em;
 
 }
-
+.void{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .loading-image{
     position: absolute;
     left: auto;

@@ -3,4 +3,6 @@
     margin: 0px 0px;
     padding: 0px 0px;
     font-family: Roboto;
+    text-decoration: none;
+    transition: margin 0.3s ease-in 0s;
 }

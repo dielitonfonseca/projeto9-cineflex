@@ -1,0 +1,140 @@
+.content{
+    padding: 0px 24px 150px 24px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+    margin: 15px 5px;
+    background-color: blue;
+    /* background-color: #8DD7CF;
+    border: 1px solid #45BDB0; */
+    border-radius: 50%;
+}
+
+#true{
+    background-color: #C3CFD9;
+    border: 1px solid #808F9D;
+}
+
+#false{
+    cursor:not-allowed;
+    background-color: #FBE192;
+    border: 1px solid #F7C52B;
+}
+
+.legenda{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.013em;
+    text-align: left;
+    color:#4E5A65; 
+}
+.legenda div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.selecionado{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8DD7CF;
+    border: 1px solid #45BDB0;
+    margin-bottom: 7px;
+}
+.disponivel{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #C3CFD9;
+    border: 1px solid #808F9D;
+    margin-bottom: 7px;
+}
+.indisponivel{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FBE192;
+    border: 1px solid #F7C52B;
+    margin-bottom: 7px;
+}
+
+input{
+    width: 327px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+input::placeholder{
+font-family: Roboto;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:#AFAFAF;
+
+}
+
+
+.form-container div{
+margin: 10px 0px 2px 0px;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:#293845;
+}
+
+button{
+margin:auto;
+margin-top: 50px;
+padding: 10px 20px;
+background-color: #E8833A;
+border-radius: 3px;
+border: none;
+height: 42px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+#clicked{
+
+    background-color: #8DD7CF;
+    border: 1px solid #45BDB0;
+
+}
